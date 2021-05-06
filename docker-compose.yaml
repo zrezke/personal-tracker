@@ -3,11 +3,11 @@ services:
     front:
         build: ./tracker-front
         command: npm run serve
-        volumes: 
-            - ./tracker-front:/app
         ports: 
             - 8080:8080
         restart: always
+        volumes:
+            - ./tracker-front:/app
 
     web:
         build: ./trackerBack
