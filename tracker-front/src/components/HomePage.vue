@@ -51,8 +51,6 @@ export default {
                 let date = new Date(response.data.hours[0].start_time)
                 let offset = -date.getTimezoneOffset()/60
                 let hours = date.getHours() + offset
-                console.log(hours)
-                console.log(date)
                 date.setHours(hours)
                 let ms = new Date() - date
                 var seconds = ms / 1000;
