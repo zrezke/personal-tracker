@@ -4,9 +4,9 @@
 1. Install [docker](https://www.docker.com/get-started)
 2. Install [node](https://nodejs.org/en/)
 3. clone repository `git clone https://github.com/zrezke/personal-tracker.git`
-4. open terminal in repository directory
 5. run these commands
 ```sh
+cd personal-tracker
 cd tracker-front
 npm i
 cd ..
