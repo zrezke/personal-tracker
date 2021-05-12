@@ -1,5 +1,5 @@
 import axios from 'axios'
-const endpoint = "http://localhost:8000/api/projects/"
+const endpoint = "http://api.zrezke.com:8000/api/projects/"
 
 export function getProjectsList() {
         return axios.get(endpoint)

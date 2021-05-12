@@ -1,5 +1,5 @@
 import axios from 'axios'
-const endpoint = "http://localhost:8000/api/hours/"
+const endpoint = "http://api.zrezke.com:8000/api/hours/"
 
 export function getHoursList(id) {
     if (id) {
